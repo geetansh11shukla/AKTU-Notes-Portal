@@ -2,7 +2,7 @@
 
 A simple, clean web app to browse and download AKTU college study notes — organized by **Year → Subject → Unit**. Built with Express and EJS, with all notes hosted on Google Drive.
 
-🔗 **Live Demo:** _add your deployed link here_
+🔗 **Live Demo:** https://aktu-notes-portal.onrender.com
 
 ---
 
@@ -26,6 +26,7 @@ A simple, clean web app to browse and download AKTU college study notes — orga
 | Styling      | Bootstrap 5, Bootstrap Icons, custom CSS    |
 | Data Storage | JSON (`data/driveLinks.json`)               |
 | Dev Tooling  | Nodemon                                     |
+| Deployment   | Render                                      |
 
 ---
 
@@ -60,30 +61,31 @@ CollegeNotesProject/
 ### Prerequisites
 - Node.js (v18+ recommended)
 
-- ### Installation
+### Installation
 
-git clone https://github.com/geetansh11shukla/AKTU-Notes-Portal/new/main?filename=README.md
-cd CollegeNotesProject
+```bash
+git clone https://github.com/geetansh11shukla/AKTU-Notes-Portal/edit/main/README.md
+cd AKTU-Notes-Portal
 npm install
+```
 
 ### Run locally
 
+```bash
 # Production mode
 npm start
 
 # Development mode (auto-restart on changes)
 npm run dev
+```
 
 Then open http://localhost:3000 in your browser.
 
 ---
+
 ## 👥 Contributors
 
-- Kshitij Mishra
-- Geetansh Shukla
+- **Kshitij Mishra**
+- **Geetansh Shukla**
 
 ---
-
-## 📄 License
-
-ISC
